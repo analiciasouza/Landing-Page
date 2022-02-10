@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho" id="cabecalho">
+        <span class="cabecalho-logo"><a href="#cabecalho"> LOGO </a></span>
+        <nav class="navegação">
+            <ul class="cabecalho-menu">
+                <li class="cabecalho-menu-item"><a href="#intro"> Intro </a></li>
+                <li class="cabecalho-menu-item"><a href="#top3"> Top 3 </a></li>
+                <li class="cabecalho-menu-item"><a href="#gallery"> Gallery </a></li>
+                <li class="cabecalho-menu-item"><a href="#contact"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="conteudo">
+    <section class="intro" id="intro">
+        <div class="intro-text">
+        <h1> JANUARY BRINGS US FIREFOX 85 </h1>
+        <p> To wrap up January, we are pound to bring you the release of
+        Firefox 85. In this version we are bringing you support for the:
+        focus-visible psedo-class in CSS and associated devtools, and the 
+        complete removal of Flash support from Firefox.
+        </p>
+        </div>
+        <img src="webdevelopment.svg" alt=" Web Development" class="img-intro">
+    </section>
+    <section class="top3" id="top3">
+        <h1> TOP 3 JOBS </h1>
+        <h3> Here are some recent work </h3>
+      <div class="ostop3-flex"> 
+    <div class="first">
+        
+        <h2> <span class="numero"> 1 </span> First </h2>
+        <p> This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing. </p>
+    </div>
+    <div class="second">
+       
+       <h2> <span class="numero"> 2 </span>  Another Site </h2>
+       <p> I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page. </p> 
+    </div>
+
+    <div class="third">
+    <h2> <span class="numero"> 3 </span> Third one </h2>
+        <p> You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support </p>
+    </div>
+      </div>
+
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1> Gallery </h1>
+        <p> Here are some of my pics. </p>
+        <div class="imagens">
+        <img src="img-1.jpeg" alt="imagem 1">
+        <img src="img-2.jpg" alt="imagem 2">
+        <img src="img-3.jpeg" alt="imagem 3">
+        <img src="img-4.jpeg" alt="imagem 4">
+        <img src="img-5.jpeg" alt="imagem 5">
+        <img src="img-6.jpeg" alt="imagem 6">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contato" >
+        <h1> CONTACT US </h1>
+      
+      </div>       
+  <form>
+        <p><i>Contact Form</i> </p>
+       <label for="first-name"> First Name </label>
+       <input type="text" id="first-name" name="name"
+       class="name" placeholder="your name" > <br>
+       <label for="last-name"> Last Name </label> 
+       <input type="text" id="last-name" name="name"
+       class="name" placeholder="your last name" > <br>
+       <label for="email"> Email </label> 
+       <input type="email" id="email" name="email" class="email"
+       placeholder="your email"> <br>
+       <p class="msg"> Your message: </p> <br>
+       <textarea></textarea> <br>
+      <input type="button" value="Send message" class="botao"
+       name="botao">
+    </form>
+    
+
+   
+    </section>
+
+    </main>
+    <footer>
+       <p> <i>No copyrights</i></p>
+    </footer>
+</body>
+</html>
